@@ -42,7 +42,6 @@ export default function App() {
         setYesButtonSize((s) => s + random);
       }
     } else {
-      alert(NO_MESSAGES[totalNoMessages - 1]);
       setNoIndex(0);
       setYesButtonSize(INITIAL_YES_SIZE);
     }
