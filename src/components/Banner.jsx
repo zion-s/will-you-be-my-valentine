@@ -1,7 +1,11 @@
+import midGif from "../assets/mid.gif";
+import noGif from "../assets/no.gif";
+import yesGif from "../assets/yes.gif";
+
 const BANNER_SRC = {
-  mid: "/images/mid.gif",
-  no: "/images/no.gif",
-  yes: "/images/yes.gif",
+  mid: midGif,
+  no: noGif,
+  yes: yesGif,
 };
 
 export function Banner({ variant = "mid" }) {
